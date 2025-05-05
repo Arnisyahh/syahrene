@@ -1,1 +1,96 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syahrine - Shine with Serenity</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    /* Header */
+    header {
+      background-color: #fcefd9; /* Kuning pucat */
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      height: 40px;
+    }
+
+    /* Hamburger menu */
+    .menu-icon {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .menu-icon span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #000;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background-image: url('https://images.unsplash.com/photo-1613145994915-0f466f97db67?auto=format&fit=crop&w=800&q=80'); /* Contoh gambar */
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .overlay {
+      text-align: center;
+      color: #fcefd9; /* Warna teks krem muda */
+    }
+
+    .overlay h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png" alt="Syahrine Logo" class="logo" />
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h1>Shine with<br>Serenity!</h1>
+    </div>
+  </section>
+</body>
+</html>
